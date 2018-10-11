@@ -10,10 +10,10 @@
 
 
 # Where the Market-1501 images are saved to.
-IMAGE_DIR=/path/to/Market-1501/images
+IMAGE_DIR=$1/market1501/images
 
 # Where the TFRecord data will be saved to.
-TF_DIR=/path/to/market-1501/tfrecords
+TF_DIR=$1/market1501/tfrecords
 
 
 echo "Building the TFRecords of market1501..."

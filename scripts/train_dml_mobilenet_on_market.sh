@@ -9,7 +9,7 @@
 
 
 # Where the TFRecords are saved to.
-DATASET_DIR=/path/to/market-1501/tfrecords
+DATASET_DIR=$1/market1501/tfrecords
 
 # Where the checkpoint and logs will be saved to.
 DATASET_NAME=market1501
