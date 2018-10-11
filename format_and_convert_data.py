@@ -19,9 +19,9 @@ tf.app.flags.DEFINE_string('split_name', None, 'split name')
 
 
 def main(_):
-	print(FLAGS.image_dir)
-	print(FLAGS.output_dir)
-	print(FLAGS.split_name)
+    print(FLAGS.image_dir)
+    print(FLAGS.output_dir)
+    print(FLAGS.split_name)
     mkdir_if_missing(FLAGS.output_dir)
 
     if FLAGS.split_name == 'bounding_box_train':
